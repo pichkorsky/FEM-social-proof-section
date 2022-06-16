@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 :root {
-    --very-dark-magenta: hsl(303, 10%, 53%);
-    --soft-pink: hsl(333, 90%, 67%);
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
     --dark-grayish-magenta: hsl(303, 10%, 53%);
     --light-grayish-magenta: hsl(300, 24%, 96%);
     --white: (0, 0%, 100%);
@@ -15,6 +15,28 @@
 
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
+}
+
+main {
+    width: 375px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.moto {
+    color: var(--very-dark-magenta);
+    padding: 30px;
+
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.8;
+
+    outline: 3px solid firebrick;
+}
+
+.claim {
+    text-align: center;
 }
 
 
