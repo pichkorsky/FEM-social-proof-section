@@ -28,7 +28,7 @@ main {
     padding: 4rem 2rem;
 
     background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-desktop.svg);
-    background-position: top, bottom;
+    background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -163,9 +163,7 @@ main {
 
         padding: 4% 13% 2% 13%;
 
-
         background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
-        background-position: left top, bottom right;
 
     }
 
@@ -175,7 +173,6 @@ main {
 
     .moto-section {
         padding-right: 30%;
-        /* outline: 3px solid deeppink; */
         }
 
     .moto {
@@ -193,7 +190,7 @@ main {
 
     .ratings-section {
         display: grid;
-        padding: 1rem 1rem;
+        padding: 1rem;
     }
 
     .rating__container {
@@ -232,7 +229,6 @@ main {
 
         display: grid;
         grid-auto-flow: column;
-        justify-content: space-between;
     
         }
 
