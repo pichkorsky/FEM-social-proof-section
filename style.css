@@ -177,6 +177,10 @@ main {
         padding-right: 30%;
         /* outline: 3px solid deeppink; */
         }
+
+    .moto {
+        max-width: 14ch;
+    }
     
     .moto,
     .claim {
