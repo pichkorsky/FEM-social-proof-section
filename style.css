@@ -161,7 +161,7 @@ main {
         display: grid;
         grid: 1fr 1fr / 1fr 1fr;
 
-        padding: 4% 15% 2% 15%;
+        padding: 4% 13% 2% 13%;
 
 
         background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
